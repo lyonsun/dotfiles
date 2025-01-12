@@ -53,46 +53,6 @@ model: gemini/gemini-1.5-pro-002
 ## Use o1-preview model for the main chat
 #o1-preview: false
 
-########################
-# API Keys and settings:
-
-## Specify the OpenAI API key
-#openai-api-key: xxx
-
-## Specify the Anthropic API key
-#anthropic-api-key: xxx
-
-## Specify the api base url
-#openai-api-base: xxx
-
-## (deprecated, use --set-env OPENAI_API_TYPE=<value>)
-#openai-api-type: xxx
-
-## (deprecated, use --set-env OPENAI_API_VERSION=<value>)
-#openai-api-version: xxx
-
-## (deprecated, use --set-env OPENAI_API_DEPLOYMENT_ID=<value>)
-#openai-api-deployment-id: xxx
-
-## (deprecated, use --set-env OPENAI_ORGANIZATION=<value>)
-#openai-organization-id: xxx
-
-## Set an environment variable (to control API settings, can be used multiple times)
-#set-env: xxx
-## Specify multiple values like this:
-#set-env:
-#  - xxx
-#  - yyy
-#  - zzz
-
-## Set an API key for a provider (eg: --api-key provider=<key> sets PROVIDER_API_KEY=<key>)
-#api-key: xxx
-## Specify multiple values like this:
-#api-key:
-#  - xxx
-#  - yyy
-#  - zzz
-
 #################
 # Model settings:
 
