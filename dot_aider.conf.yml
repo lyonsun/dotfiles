@@ -19,6 +19,7 @@
 
 ## Specify the model to use for the main chat
 model: gemini/gemini-1.5-pro-002
+
 ## Use claude-3-opus-20240229 model for the main chat
 #opus: false
 
@@ -144,6 +145,7 @@ weak-model: gemini/gemini-1.5-pro-002
 
 ## Enable caching of prompts (default: False)
 cache-prompts: true
+
 ## Number of times to ping at 5min intervals to keep prompt cache warm (default: 0)
 #cache-keepalive-pings: false
 
@@ -178,7 +180,7 @@ cache-prompts: true
 # Output settings:
 
 ## Use colors suitable for a dark terminal background (default: False)
-#dark-mode: false
+dark-mode: true
 
 ## Use colors suitable for a light terminal background (default: False)
 #light-mode: false
@@ -217,7 +219,7 @@ cache-prompts: true
 #completion-menu-current-bg-color: xxx
 
 ## Set the markdown code theme (default: default, other options include monokai, solarized-dark, solarized-light, or a Pygments builtin style, see https://pygments.org/styles for available themes)
-#code-theme: default
+code-theme: monokai
 
 ## Show diffs when committing changes (default: False)
 #show-diffs: false
