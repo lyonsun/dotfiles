@@ -7,7 +7,7 @@ local config = wezterm.config_builder()
 config = {
 	font = wezterm.font({ family = "JetBrains Mono", weight = "Regular" }),
 	font_size = 16.0,
-	color_scheme = "Catppuccin Mocha",
+	color_scheme = "3024 Night",
 	enable_tab_bar = false,
 	window_decorations = "RESIZE",
 	window_background_opacity = 0.85,
