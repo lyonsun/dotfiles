@@ -355,8 +355,7 @@ auto-commits: false
 #vim: false
 
 ## Specify the language to use in the chat (default: None, uses system settings)
-#chat-language: xxx
-
+chat-language: en
 ## Always say yes to every confirmation
 #yes-always: false
 
