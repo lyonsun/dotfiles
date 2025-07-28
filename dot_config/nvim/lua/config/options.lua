@@ -8,3 +8,5 @@ vim.g.lazyvim_python_lsp = "pyright"
 
 -- Telescope
 -- vim.g.lazyvim_picker = "telescope"
+
+vim.opt.winbar = "%=%m %f"
