@@ -5,13 +5,14 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 config = {
-	font = wezterm.font({ family = "JetBrains Mono", weight = "Regular" }),
+	font = wezterm.font({ family = "Fira Code", weight = "Regular" }),
 	font_size = 16.0,
+	line_height = 1.2,
 	color_scheme = "3024 Night",
 	enable_tab_bar = false,
 	window_decorations = "RESIZE",
 	window_background_opacity = 0.8,
-	-- macos_window_background_blur = 20,
+	macos_window_background_blur = 20,
 	initial_rows = 80,
 	initial_cols = 160,
 	send_composed_key_when_left_alt_is_pressed = true,
