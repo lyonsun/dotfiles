@@ -8,7 +8,7 @@ config = {
 	font = wezterm.font({ family = "Fira Code", weight = "Regular" }),
 	font_size = 16.0,
 	line_height = 1.2,
-	color_scheme = "3024 Night",
+	color_scheme = "Wez",
 	enable_tab_bar = false,
 	window_decorations = "RESIZE",
 	window_background_opacity = 0.8,
