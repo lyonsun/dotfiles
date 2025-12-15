@@ -3,5 +3,6 @@ return {
   opts = function(_, opts)
     table.insert(opts.ensure_installed, "black")
     table.insert(opts.ensure_installed, "svelte-language-server")
+    table.insert(opts.ensure_installed, "astro-language-server")
   end,
 }
