@@ -5,7 +5,7 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 config = {
-	font = wezterm.font({ family = "Fira Code", weight = "Regular" }),
+	font = wezterm.font({ family = "JetBrains Mono", weight = "Regular" }),
 	font_size = 16.0,
 	line_height = 1.2,
 	color_scheme = "Wez",
