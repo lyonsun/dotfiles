@@ -17,10 +17,10 @@ return {
         model = "claude-sonnet-4@20250514",
       },
       vertex = {
-        model = "gemini-2.5-pro",
+        model = "gemini-3-pro-preview",
       },
       gemini = {
-        model = "gemini-2.5-flash",
+        model = "gemini-3-flash-preview",
       },
     },
   },
