@@ -16,3 +16,5 @@ macos-titlebar-style          = hidden
 
 quit-after-last-window-closed = true
 
+cursor-style                  = block
+shell-integration-features    = no-cursor
