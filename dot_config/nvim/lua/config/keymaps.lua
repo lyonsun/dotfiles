@@ -10,3 +10,7 @@ vim.keymap.set("n", "<leader>gj", "<cmd>GoTagAdd json<cr>")
 vim.keymap.set("n", "<leader>hp", "<cmd>Gitsigns preview_hunk<cr>")
 vim.keymap.set("n", "<leader>hd", "<cmd>Gitsigns diffthis<cr>")
 vim.keymap.set("n", "<leader>hb", "<cmd>Gitsigns blame_line<cr>")
+
+vim.keymap.set("n", "<leader>D", function()
+  Snacks.dashboard()
+end, { desc = "Dashboard" })
