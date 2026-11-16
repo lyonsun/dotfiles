@@ -23,6 +23,9 @@ command -v zoxide >/dev/null && eval "$(zoxide init zsh)"
 # mise
 command -v mise >/dev/null && eval "$(mise activate zsh)"
 
+# opencode
+export PATH=/Users/liangsun/.opencode/bin:$PATH
+
 # herdr
 alias hd='herdr'
 
