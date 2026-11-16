@@ -20,11 +20,11 @@ unset _brew_share
 # zoxide
 command -v zoxide >/dev/null && eval "$(zoxide init zsh)"
 
-# herdr
-alias hd='herdr'
-
 # mise
 command -v mise >/dev/null && eval "$(mise activate zsh)"
+
+# herdr
+alias hd='herdr'
 
 # fabric ai
 alias fabric='fabric-ai'
